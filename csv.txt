@@ -1,0 +1,8 @@
+Aufbau einer CSV-Datei
+Grob gesagt: Jedem Posten in der Tabelle entspricht eine Textlinie in der Textdatei. Jedes Feld ist durch ein Komma vom nächsten getrennt.
+
+CVS-Dateien nutzen, wie der Name „Comma-separated values“ suggeriert, in der Regel Kommata, um Datenfelder bzw. Spalten innerhalb eines Datensatzes voneinander zu trennen. Je nach Software und Einstellungen können aber manchmal auch Doppelpunkt, Semikolon, Leerzeichen, Tabulator oder andere Zeichen verwendet werden.
+
+Ein weiteres Zeichen wird zur Trennung der Datensätze bzw. einzelnen Zeilen voneinander verwendet. Tatsächlich ist dies meist einfach der Zeilenumbruch des Betriebssystems, mit dem die Datei erzeugt wird.
+
+Desweiteren gibt es manchmal noch sog. Feldbegrenzerzeichen. Wenn zum Beispiel Sonderzeichen innerhalb der Daten verwendet werden, etwa das Komma bei Dezimalzahlen, dann wird der Inhalt des Feldes in Anführungszeichen gesetzt, die Beginn und Ende des Textes markieren.
